@@ -1,0 +1,26 @@
+@hostname=http://localhost:8088/api/v1
+
+# create user
+# post {{hostname}}/user/register 
+# Content-Type: application/json
+
+# {
+#     "firstName": "ramesh",
+#     "lastName": "ravi",
+#     "email": "ramesh12@gmail.com",
+#     "password": "123456789"
+# }
+
+# post {{hostname}}/user/loginuser 
+# Content-Type: application/json
+
+# {
+#     "firstName": "ramesh",
+#     "lastName": "ravi",
+#     "email": "ramesh12@gmail.com",
+#     "password": "123456789"
+# }
+
+get {{hostname}}/user/profile/6260f89e481d34ed2c3a89fc
+Content-Type: application/json
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjYwZjg5ZTQ4MWQzNGVkMmMzYTg5ZmMiLCJpYXQiOjE2NTA1MjMwMzR9.grpaqi8z5Qfl4yFf7Kti9pOcHqw9IqhinGtoPRCm8U8"
